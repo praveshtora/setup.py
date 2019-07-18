@@ -110,7 +110,7 @@ setup(
     # entry_points={
     #     'console_scripts': ['mycli=mymodule:cli'],
     # },
-    install_requires=REQUIRED,
+    install_requires=['urllib3==1.24.2', 'pymongo==3.7.2', 'rabbitpy==1.0', 'pycryptodome==3.7.3']
     extras_require=EXTRAS,
     include_package_data=True,
     license='MIT',
